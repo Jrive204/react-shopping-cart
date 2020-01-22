@@ -1,6 +1,6 @@
 # Module Project: Context API - Shopping Cart
 
-In this module you will take your newfound knowledge of `Context API` and refactor a e-commerce store to use `Context API` as well as extend the functionality of the application making it more robust!
+In this module you will take your newfound knowledge of `Context API` and refactor a e-commerce store to use `Context API` as well as extend the functionality of the application making it more robust! Hello !!!!!! AGAIN !!!!
 
 ## Instructions
 
@@ -78,7 +78,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 ```js
 <Route
   exact
-  path="/"
+  path='/'
   render={() => <Products products={products} addItem={addItem} />}
 />
 ```
@@ -86,7 +86,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 **AFTER**
 
 ```js
-<Route exact path="/" component={Products} />
+<Route exact path='/' component={Products} />
 ```
 
 - After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly!
